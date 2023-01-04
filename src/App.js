@@ -2,24 +2,52 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Profile from "./Pages/Profile";
+
+import Rankings from "./Pages/Rankings";
 import ErrorPage from "./Pages/ErrorPage";
 
 function App() {
   return (
     <Router>
       <nav>
-        <Link to="/"> Home </Link>
-        <Link to="/about"> About </Link>
-        <Link to="/profile"> Profile </Link>
+        <ul>
+          <li>
+            <div className="anchor">
+              <Link to="/" className="navlink">
+                {" "}
+                Home{" "}
+              </Link>
+            </div>
+          </li>
+          <li>
+            <div className="anchor">
+              <Link to="/about" className="navlink">
+                {" "}
+                About{" "}
+              </Link>
+            </div>
+          </li>
+          
+          <li>
+            <div className="anchor">
+              <Link to="/rankings" className="navlink">
+                {" "}
+                Rankings{" "}
+              </Link>
+            </div>
+          </li>
+        </ul>
       </nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/profile/:username" element={<Profile />} />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
-      <div> Foooter </div>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/rankings" element={<Rankings />} />
+          
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+        <div> Foooter </div>
+      </main>
     </Router>
   );
 }
