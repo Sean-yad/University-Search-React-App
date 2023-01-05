@@ -51,8 +51,8 @@ function App() {
         <div class="wrapper">
           <nav className="footer-nav">
             <a href="/">Home</a>
-            <a href="/about">Portfolio</a>
-            <a href="/rankings">Resume</a>
+            <a href="/Portfolio">Portfolio</a>
+            <a href="/Resume">Resume</a>
           </nav>
         </div>
       </footer>
