@@ -1,15 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
 
 
 *{
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 
 }
 ul {
 
-  position: fixed;
+  
   top: 0;
   left: 0;
   right: 0;
@@ -18,12 +21,13 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
   overflow: hidden;
-  background-color: rgb(59, 59, 59);
+  background-color: rgb(192, 25, 25);
   
 }
 main {
-  margin-top: 70px; 
+  margin-top: 30px; 
 }
 
 .anchor {
@@ -35,6 +39,10 @@ main {
   text-decoration: none;
   
 }
+.anchor:hover {
+  background-color: rgb(158, 153, 153);
+}
+
 
 .navlink {
   color: white;
@@ -42,10 +50,8 @@ main {
   text-decoration: none;
 
 }
+
 /* Change the link color to #111 (black) on hover */
-.anchor:hover {
-  background-color: rgb(158, 153, 153);
-}
 
 
 
@@ -63,8 +69,7 @@ footer {
   width: 100vw;
   height: 4rem;
   text-align: center;
-  font-family: 'Arial', sans-serif;
-  font-size: .875rem;
+  font-size: 1rem;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -97,4 +102,66 @@ footer small {
 .footer-nav a:hover {
   color: #94d4ff;
   transition: color .15s ease-in-out;
+}
+
+
+
+
+.nav-container{
+  width: 100%;
+ 
+}
+
+.flex-container{
+  width: 100%;
+
+}
+
+.logo-ul{
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px 25px 0px;
+  overflow: hidden;
+  background-color: rgb(117, 117, 117);
+}
+
+.logo-div {
+ 
+  margin: 0, auto;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  text-decoration: none;
+  
+}
+
+
+.logo {
+  
+  font-size: 80px;
+  
+  
+}
+.logo a {
+  font-family: 'Inria Serif', serif;
+  font-weight: 300;
+  color: rgb(248, 248, 248);
+}
+
+.logo,
+.navigation {
+  list-style: none;
+  
+}
+
+
+.logo a,
+.navigation a {
+  text-decoration: none;
 }
