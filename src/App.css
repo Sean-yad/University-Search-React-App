@@ -74,9 +74,10 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #333;
+  background-color: #ffffff;
   color: white;
   text-align: center;
+  border-top: 2.5px solid #757575;
 }
 
 
@@ -93,7 +94,7 @@ footer small {
 }
 
 .footer-nav a {
-  color: #fff6f6;
+  color: #757575;
   text-decoration: none;
   margin: 0 .5rem;
   display: inline-block;
@@ -128,7 +129,7 @@ footer small {
   margin: 0;
   padding: 0px 0px 25px 0px;
   overflow: hidden;
-  background-color: rgb(117, 117, 117);
+  background-color: #757575;
 }
 
 .logo-div {
