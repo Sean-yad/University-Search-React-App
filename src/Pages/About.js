@@ -1,7 +1,12 @@
 import React from "react";
+import FourSquareGrid from "../Components/FourSquareGrid";
 
 function About() {
-  return <div>THIS IS THE ABOUT PAGE</div>;
+  return (
+    <div>
+      <FourSquareGrid />
+    </div>
+  );
 }
 
 export default About;

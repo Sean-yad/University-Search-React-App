@@ -1,7 +1,7 @@
 import React from "react";
 
 function ErrorPage() {
-  return <div>ERROR! PAGE NOT FOUND</div>;
+  return <div>THIS LINK DON'T EXIST DUMMY</div>;
 }
 
 export default ErrorPage;

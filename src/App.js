@@ -21,7 +21,7 @@ function App() {
           </div>
         </nav>
         <nav>
-          <ul>
+          <ul className="unordered-list">
             <li>
               <div className="anchor">
                 <Link to="/" className="navlink">
