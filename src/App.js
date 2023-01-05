@@ -27,7 +27,7 @@ function App() {
               </Link>
             </div>
           </li>
-          
+
           <li>
             <div className="anchor">
               <Link to="/rankings" className="navlink">
@@ -43,11 +43,19 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/rankings" element={<Rankings />} />
-          
+
           <Route path="*" element={<ErrorPage />} />
         </Routes>
-        <div> Foooter </div>
       </main>
+      <footer>
+        <div class="wrapper">
+          <nav className="footer-nav">
+            <a href="/">Home</a>
+            <a href="/about">Portfolio</a>
+            <a href="/rankings">Resume</a>
+          </nav>
+        </div>
+      </footer>
     </Router>
   );
 }
