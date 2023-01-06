@@ -4,6 +4,11 @@
     text-align: center;
   }
   
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #bdb8b8;
+    opacity: 1; /* Firefox */
+  }
   .search-box {
     width: 80%;
     font-size: 16px;
@@ -25,6 +30,8 @@
   .university-table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 50px;
+    margin: 0 auto;
   }
   
   .university-table th,
@@ -53,3 +60,5 @@
     overflow: hidden;
     padding: 8px;
   }
+
+  

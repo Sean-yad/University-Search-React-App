@@ -1,12 +1,7 @@
 import React from "react";
-import FourSquareGrid from "../Components/FourSquareGrid";
 
 function About() {
-  return (
-    <div>
-      <FourSquareGrid />
-    </div>
-  );
+  return <div>THIS IS OUR EVENTS PAGE</div>;
 }
 
 export default About;

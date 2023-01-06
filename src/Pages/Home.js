@@ -1,6 +1,6 @@
 import React from "react";
 import UniversitySearch from "../Components/UniversitySearch";
-import FourSquareGrid from "../Components/FourSquareGrid";
+
 import WesternEuropeList from "../Components/WesternEuropeList";
 
 function Home() {
