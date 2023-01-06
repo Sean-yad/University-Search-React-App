@@ -30,8 +30,7 @@
   .university-table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 50px;
-    margin: 0 auto;
+    margin-bottom: 7rem;
   }
   
   .university-table th,
