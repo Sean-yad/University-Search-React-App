@@ -48,10 +48,10 @@ function UniversitySearch() {
               <td>{university.country}</td>
               <td>{university.alpha_two_code}</td>
               <ul className="url-list">
-                {university.web_pages.map((web_pages) => (
-                  <li key={web_pages}>
-                    <a href={`http://${web_pages}`} target="_blank">
-                      {web_pages}
+                {university.domains.map((domains) => (
+                  <li key={domains}>
+                    <a href={`http://${domains}`} target="_blank">
+                      {domains}
                     </a>
                   </li>
                 ))}
