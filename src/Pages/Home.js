@@ -6,7 +6,6 @@ import WesternEuropeList from "../Components/WesternEuropeList";
 function Home() {
   return (
     <div className="main-container">
-      <WesternEuropeList />
       <UniversitySearch />
     </div>
   );

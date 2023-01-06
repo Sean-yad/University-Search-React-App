@@ -14,6 +14,8 @@
     border-radius: 4px;
     outline: none;
     transition: 0.3s;
+    margin: 5px 20px 40px 20px;
+
   }
   
   .search-box:focus {
@@ -33,7 +35,8 @@
   }
   
   .university-table th {
-    background-color: #ddd;
+    background-color: #6b6b6b;
+    color: #ffffff;
   }
   
   .university-table tr:nth-child(even) {

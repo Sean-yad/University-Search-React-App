@@ -28,7 +28,7 @@ function UniversitySearch() {
           type="text"
           value={searchTerm}
           onChange={handleChange}
-          placeholder="Search for a university..."
+          placeholder="Search from over 20000 universities across the globe..."
           className="search-box"
         />
       </form>
@@ -37,7 +37,7 @@ function UniversitySearch() {
           <tr>
             <th>Name</th>
             <th>Country</th>
-            <th>Domain</th>
+            <th>Website</th>
           </tr>
         </thead>
         <tbody>
@@ -47,7 +47,11 @@ function UniversitySearch() {
               <td>{university.country}</td>
               <ul className="url-list">
                 {university.domains.map((domain) => (
-                  <li key={domain}>{domain}</li>
+                  <li key={domain}>
+                    <a href={`http://${domain}`} target="_blank">
+                      {domain}
+                    </a>
+                  </li>
                 ))}
               </ul>
             </tr>
