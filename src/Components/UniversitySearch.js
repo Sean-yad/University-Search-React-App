@@ -8,7 +8,7 @@ function UniversitySearch() {
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(
-        `http://universities.hipolabs.com/search?country=&name=${searchTerm}`
+        `http://universities.hipolabs.com/search?country=&name=${searchTerm}&limit=30`
       );
       const data = await response.json();
       setSearchResults(data);
@@ -41,7 +41,7 @@ function UniversitySearch() {
           </tr>
         </thead>
         <tbody>
-          {searchResults.map((university) => (
+          {searchResults.slice(0, 30).map((university) => (
             <tr key={university.id}>
               <td>{university.name}</td>
               <td>{university.country}</td>
