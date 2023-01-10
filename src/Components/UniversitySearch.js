@@ -51,7 +51,6 @@ function UniversitySearch() {
           <option value="Italy">Italy</option>
           <option value="United Kingdom">United Kingdom</option>
           <option value="Spain">Spain</option>
-          <option value="Russia">Russia</option>
           <option value="China">China</option>
           <option value="Japan">Japan</option>
           <option value="Finland">Finland</option>
@@ -63,7 +62,6 @@ function UniversitySearch() {
           <option value="Portugal">Portugal</option>
           <option value="Romania">Romania</option>
           <option value="Malaysia">Malaysia</option>
-          <option value="Vietnam">Vietnam</option>
         </select>
       </form>
       <table className="university-table">
