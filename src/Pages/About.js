@@ -1,7 +1,12 @@
 import React from "react";
+import FirebaseFetch from "../Auth/FirebaseFetch";
 
 function About() {
-  return <div>THIS IS OUR EVENTS PAGE</div>;
+  return (
+    <div>
+      <FirebaseFetch />
+    </div>
+  );
 }
 
 export default About;
