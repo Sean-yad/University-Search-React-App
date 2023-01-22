@@ -3,7 +3,7 @@ import UniversitySearch from "../Components/UniversitySearch";
 
 import WesternEuropeList from "../Components/WesternEuropeList";
 
-function Home() {
+function Discover() {
   return (
     <div className="main-container">
       <UniversitySearch />
@@ -11,4 +11,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Discover;
