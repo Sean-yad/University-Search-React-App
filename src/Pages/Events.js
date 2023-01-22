@@ -1,8 +1,19 @@
 import React from "react";
-import FirebaseFetch from "../Auth/FirebaseFetch";
+import MultiActionAreaCard from "../Components/MultiActionAreaCard";
 
 function Events() {
-  return <div>Test</div>;
+  return (
+    <div
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "100vh",
+      }}
+    >
+      <MultiActionAreaCard />
+    </div>
+  );
 }
 
 export default Events;
