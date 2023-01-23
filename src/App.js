@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Pages/Discover";
-import About from "./Pages/Events";
+import Events from "./Pages/Events";
 import Rankings from "./Pages/Rankings";
 import ErrorPage from "./Pages/ErrorPage";
 
@@ -32,29 +32,29 @@ function App() {
             </li>
             <li>
               <div className="anchor">
-                <Link to="/about" className="navlink">
-                  {" "}
-                  Events{" "}
-                </Link>
-              </div>
-            </li>
-
-            <li>
-              <div className="anchor">
                 <Link to="/rankings" className="navlink">
                   {" "}
                   Rankings{" "}
                 </Link>
               </div>
             </li>
+
+            <li>
+              <div className="anchor">
+                <Link to="/events" className="navlink">
+                  {" "}
+                  Events{" "}
+                </Link>
+              </div>
+            </li>
           </ul>
         </nav>
       </div>
-      <main>
+      <main className="main-class">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
           <Route path="/rankings" element={<Rankings />} />
+          <Route path="/events" element={<Events />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </main>
@@ -62,8 +62,9 @@ function App() {
         <div class="wrapper">
           <nav className="footer-nav">
             <a href="/">Discover</a>
-            <a href="/about">Events</a>
+            <a href="/events">Events</a>
             <a href="/rankings">Rankings</a>
+            
           </nav>
         </div>
       </footer>

@@ -28,6 +28,7 @@ function UniversitySearch() {
 
   return (
     <div className="university-search">
+      
       <form>
         <input
           type="text"

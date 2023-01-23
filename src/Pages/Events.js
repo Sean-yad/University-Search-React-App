@@ -2,18 +2,7 @@ import React from "react";
 import MultiActionAreaCard from "../Components/MultiActionAreaCard";
 
 function Events() {
-  return (
-    <div
-      sx={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        minHeight: "100vh",
-      }}
-    >
-      <MultiActionAreaCard />
-    </div>
-  );
+  return <div>Events Page Coming Soon...</div>;
 }
 
 export default Events;
