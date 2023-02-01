@@ -3,7 +3,7 @@ import cambridge from "../images/cambridge.jpg";
 import stanford from "../images/stanford.jpg";
 import oxford from "../images/oxford.jpg";
 import harvard from "../images/harvard.jpg";
-import caltech from "../images/caltech.jpg";
+
 import imperial from "../images/imperial.jpg";
 import ucl from "../images/ucl.jpg";
 import zurich from "../images/zurich.jpg";
@@ -51,7 +51,7 @@ const array1 = [
     name: "6. California Institute of Technology (Caltech) ",
     description:
       "The California Institute of Technology (Caltech) is a world-renowned science and engineering research institute, known for its strong emphasis on the natural sciences and engineering. It has an outstanding faculty and a student body that is highly select and academically talented.",
-    image: caltech,
+    image: ucl,
   },
   {
     id: 7,
